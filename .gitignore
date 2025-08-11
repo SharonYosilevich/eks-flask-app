@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+
+# VSCode / OS
+.vscode/
+.DS_Store
+
+# Docker
+*.log
+
+# Kubernetes
+.kube/
+*.yaml~  # קבצי גיבוי
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*.tfvars
+*.tfvars.json
+.terraform.lock.hcl
+
+# AWS creds (לא להעלות אף פעם)
+.aws/
